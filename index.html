@@ -9,26 +9,34 @@
 body {
   font-family: 'Arial', sans-serif;
   background-color: lightblue;
+  text-align: center;
 }
 button {
-  background-color: rgb(29, 155, 240);
+  background-image: linear-gradient(rgb(43, 184, 244), purple);
   color: white;
-  height: 50px;
-  width: 100px;
+  height: 40px;
+  width: 140px;
   border-color: orange;
   border-radius: 50px;
   border-style: solid;
   cursor: pointer;
-  border-width: 1.50px;
+  border-width: 2.50px;
   margin-left: 2px;
   font-weight: bold;
-  font-size: 12.5px;
+  font-size: 15.0px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
   padding-right: 5px;
   vertical-align: top;
 }
+
+  button:hover {
+    background-image: linear-gradient(rgb(11, 115, 160), rgb(81, 4, 81));
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
 #nav{
   padding: 0.25%;
   background-color: rgb(239, 157, 16);
@@ -42,12 +50,12 @@ button {
   </head>
 
   <body>
-    <h1>Welkom! Kies een site om door te gaan:</h1>
+    <h2>Welkom! Kies een site om door te gaan:</h2>
     <br>
     <br>
     <button onclick="window.location.href = 'https://ryanvanderhaak.github.io/Online-Leerhulp/Home.html';">Online Leerhulp</button>
     <button onclick="window.location.href = 'https://ryanvanderhaak.github.io/Instant-Games/Home.html';">Instant Games</button>
-    <button onclick="window.location.href = 'https://ryanvanderhaak.github.io/Simple-Texteditor/inex.html';">Simple Texteditor</button>
+    <button onclick="window.location.href = 'https://ryanvanderhaak.github.io/Simple-Texteditor/index.html';">Simple Texteditor</button>
     <button onclick="window.location.href = 'https://ryanvanderhaak.github.io/Online-Leerhulp/Arya.html';">Arya - Online Leerhulp</button>
   </body>
 </html>
